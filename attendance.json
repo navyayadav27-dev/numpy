@@ -1,0 +1,19 @@
+{
+    "students": [
+        {
+            "name": "Rahul Sharma",
+            "roll_no": "101",
+            "attendance": {
+                "2026-10-26": "Present",
+                "2026-10-27": "Present"
+            },
+            "total_days": 2
+        },
+        {
+            "name": "Priya Verma",
+            "roll_no": "102",
+            "attendance": {},
+            "total_days": 0
+        }
+    ]
+}

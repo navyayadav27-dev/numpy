@@ -1,0 +1,38 @@
+
+# AI-Based Attendance Management System
+
+## Project Overview
+This project manages student attendance using Python and JSON.
+It also includes a local AI assistant powered by Ollama and Qwen.
+
+## Features
+- Mark student attendance
+- Remove attendance records
+- Calculate attendance percentages
+- Ask questions about attendance using AI
+- Store records in a JSON file
+- Handle invalid student roll numbers
+
+## Technologies Used
+- Python
+- JSON
+- Ollama
+- Qwen 2.5 3B
+- VS Code
+
+## Project Files
+- `main.py` — Main attendance management program
+- `attendance.json` — Student attendance data
+- `ai_assistant.py` — AI assistant and percentage calculations
+
+## How to Run
+1. Install Python and Ollama.
+2. Download the model using `ollama pull qwen2.5:3b`.
+3. Install the Python package using `python3 -m pip install ollama`.
+4. Start Ollama.
+5. Open the project folder in Terminal.
+6. Run `python3 main.py`.
+
+## Note
+This is a student project using sample attendance data.
+Attendance percentages are calculated from recorded days.
